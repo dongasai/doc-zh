@@ -5,7 +5,7 @@
 <refentry xml:id="function.array-key-last" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>array_key_last</refname>
-  <refpurpose>获取一个数组的最后一个键值</refpurpose>
+  <refpurpose>获取一个数组的最后一个键名</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,7 +16,7 @@
   </methodsynopsis>
   <para>
    取得指定数组的 <parameter>array</parameter>
-   最后一个键值，不会影响到原数组的内部指针。
+   最后一个键名，不会影响到原数组的内部指针。
   </para>
  </refsect1>
 
@@ -37,7 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   返回 <parameter>array</parameter> 的最后一个键值（如果不为空），否则返回 &null;。
+   返回 <parameter>array</parameter> 的最后一个键名（如果不为空），否则返回 &null;。
   </para>
  </refsect1>
 
